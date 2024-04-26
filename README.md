@@ -7,9 +7,6 @@ An ATM management system in C, supporting features like user registration, accou
 
 Follow these instructions to start the program
 
-```
-git clone git@git.01.alem.school:mzengino/atm-management-system
-```
 
 ```
 cd atm-management-system
