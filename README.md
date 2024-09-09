@@ -110,18 +110,3 @@ The following features must be implemented by yourself.
   - Saving the information in the corresponding file
 
 
-## Example
-
-You can find an example of the final application [here](https://www.youtube.com/watch?v=xVtikDcGG2E&ab_channel=01-edu). Don't forget that you are free to implement whichever kind of interface you desire. It just needs to obey the instructions given above so it can pass the audit.
-
-This project will help you learn about:
-
-- [C](https://en.wikipedia.org/wiki/C_%28programming_language%29) language
-  - Language Fundamentals
-- Data manipulation
-  - File manipulation
-  - Data structures
-- Makefile
-- Terminal UI
-- Memory management
-- Pipes and child processes
