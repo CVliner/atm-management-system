@@ -39,7 +39,7 @@ const char *getPassword(struct User u)
 
     if ((f = fopen(USERS, "r")) == NULL)
     {
-        printf("Error! opening file\n\n");
+        printf("Error by Opening File\n\n");
         exit(1);
     }
 
@@ -65,7 +65,7 @@ const int userID(struct User u)
 
     if ((f = fopen(USERS, "r")) == NULL)
     {
-        printf("Error! opening file\n\n");
+        printf("Error by Opening File\n\n");
         exit(1);
     }
 
@@ -112,7 +112,7 @@ void registerMenu(char a[50], char pass[50])
         {   
             fclose(file1);
             system("clear");
-            printf("\n✖ The user with the same name already exists ✖\n\n");
+            printf("\n✖ The User with the same Name already exists ✖\n\n");
 
             invalid:
 
@@ -130,7 +130,7 @@ void registerMenu(char a[50], char pass[50])
             }
             else
             {
-                printf("Insert a valid operation!\n\n");
+                printf("Insert a Valid Operation!\n\n");
                 goto invalid;
             }
             
@@ -143,7 +143,7 @@ void registerMenu(char a[50], char pass[50])
 
     if ((file2 = fopen(USERS, "a+")) == NULL)
     {
-        printf("Error! opening file\n\n");
+        printf("Error by Opening File\n\n");
         exit(1);
     }
 
