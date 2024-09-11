@@ -7,12 +7,12 @@ void mainMenu(struct User u)
     printf("\n============== ATM - MANAGEMENT - SYSTEM =============\n\n");
     printf("-->> Feel free to choose one of the options below <<--\n\n");
     printf("[1] - Create a new account\n\n");
-    printf("[2] - Update account information\n\n");
-    printf("[3] - Check accounts\n\n");
-    printf("[4] - Check list of owned account\n\n");
+    printf("[2] - Update Account Info\n\n");
+    printf("[3] - Check Accounts\n\n");
+    printf("[4] - Check List of Owned Account\n\n");
     printf("[5] - Make Transaction\n\n");
-    printf("[6] - Remove existing account\n\n");
-    printf("[7] - Transfer ownership\n\n");
+    printf("[6] - Remove Existing Account\n\n");
+    printf("[7] - Transfer Ownership\n\n");
     printf("[8] - Exit\n\n");
     scanf("%d", &option);
 
